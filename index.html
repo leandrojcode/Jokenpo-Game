@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Dev JokenPô</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>JokenPô</h1>
+
+    <div class="buttons">
+      <button id="rock" onclick="selectChoice('rock')">
+        <img src="assets/rock.png" alt="Pedra">
+      </button>
+      <button id="paper" onclick="selectChoice('paper')">
+        <img src="assets/paper.png" alt="Papel">
+      </button>
+      <button id="scissors" onclick="selectChoice('scissors')">
+        <img src="assets/scissors.png" alt="Tesoura">
+      </button>
+    </div>
+
+    <div class="actions">
+      <button id="play" onclick="playGame()">▶️ Play</button>
+      <button id="reset" class="reset-btn" onclick="resetGame()">🔁 Reset</button>
+    </div>
+
+    <p class="result"></p>
+
+    <div class="scores">
+      <p class="player-score">Player: <span>0</span></p>
+      <p class="computer-score">Computer: <span>0</span></p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
