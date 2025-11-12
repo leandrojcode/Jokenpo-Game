@@ -24,7 +24,7 @@ O foco principal é a prática de **lógica de programação**, **manipulação 
 
 ## Interface
 
- ![Preview do Jogo](./images/preview.png))
+ ![Preview do Jogo](./assets/img-git.png)
 
 ---
 
